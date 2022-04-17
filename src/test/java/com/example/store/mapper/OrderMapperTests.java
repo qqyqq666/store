@@ -24,6 +24,7 @@ public class OrderMapperTests {
         Integer rows = orderMapper.insertOrder(order);
         System.out.println("rows=" + rows);
         System.out.println("ceshiGit");
+         System.out.println("ceshipull");
     }
 
     @Test
