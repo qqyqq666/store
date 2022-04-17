@@ -23,6 +23,7 @@ public class OrderMapperTests {
         System.out.println("nihao ");
         Integer rows = orderMapper.insertOrder(order);
         System.out.println("rows=" + rows);
+        System.out.println("ceshiGit");
     }
 
     @Test
