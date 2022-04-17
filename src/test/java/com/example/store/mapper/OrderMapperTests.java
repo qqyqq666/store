@@ -20,7 +20,7 @@ public class OrderMapperTests {
         Order order = new Order();
         order.setUid(11);
         order.setRecvName("小王");
-
+        System.out.println("nihao ");
         Integer rows = orderMapper.insertOrder(order);
         System.out.println("rows=" + rows);
     }
